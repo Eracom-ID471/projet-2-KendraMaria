@@ -1,0 +1,54 @@
+
+body {
+  background: Lavender;
+  color: MidnightBlue;
+  font-family: 'Rokkitt', serif;;
+}
+
+a:active{
+  color: white;
+}
+
+.chat-title{
+  text-transform: uppercase;
+}
+
+.chat-image{
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+img:hover{
+  opacity: .5;
+}
+
+header{
+  background-color: snow;
+  color: MidnightBlue;
+  height: 100px;
+  text-align: center;
+  padding-top: 5px;
+  margin-top:-2px;
+}
+
+footer{
+  background-color: MediumSlateBlue;
+  color: white;
+  height: 40px;
+  text-align: center;
+  padding-top: 1px;
+}
+
+
+.content{
+  text-align: center;
+}
+
+  img{
+background-color: #cccccc;
+zoom:1;
+box-shadow: 5px 2px 15px 5px #191970;
+}
+
+@media only screen{#selecteur{filter: none;}} /*Ie9+*/
