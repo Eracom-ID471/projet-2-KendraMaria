@@ -1,7 +1,7 @@
 ---
 layout: post
 ranking: 6
-title: Nylah Kitty
+title: Cat confused
 image: "/assets/img/6.jpg"
 video:
 ---
