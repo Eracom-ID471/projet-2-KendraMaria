@@ -1,4 +1,4 @@
-url: "https://eracom-id471.github.oi" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://eracom-id471.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/projet-2-kendraMaria" # the subpath of your site, e.g. /blog
 title: "chats" # the name of your site, e.g. ACME Corp.
 
