@@ -6,5 +6,9 @@ collections:
   chats:
     output: true
 
+collections:
+  animals:
+    output: true
+
 plugins:
   - jekyll-admin
