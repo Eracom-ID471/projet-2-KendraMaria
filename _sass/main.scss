@@ -19,6 +19,16 @@ a:active{
   width: 100%;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
 img:hover{
   opacity: .5;
 }
