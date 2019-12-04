@@ -1,25 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 {% include head.html %}
+  <body>
 
-<body>
-  {% include header.html %}
-  {% for chats in site.chats %}
-
-  <div class="content">
-
-    <h1 class="chat-title"><i> {{chats.ranking}}.</i>
-    <a href="{{ chats.url | relative_url }}"> {{ chats.title }}
-    <br>
-  <img src="{{ chats.image | relative_url }}"/>
-  </a>
-  </h1>
-
-    <p> {{ chats.short_description }} </p>
-  </div>
-  {% endfor %}
-
+{% include header.html %}
+<div class="foot">
+  {{ content }}
+</div>
   {% include footer.html %}
-</body>
-
+  </body>
 </html>
