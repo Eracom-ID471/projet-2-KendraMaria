@@ -1,0 +1,29 @@
+---
+layout: liste
+---
+<div class="left space block">
+  <h2>Nébuleuse <sub>Nom fém.</sub></h2>
+  <h3>
+  Une nébuleuse désigne, en astronomie, un objet céleste composé de gaz raréfié, ionisé et/ou de poussières interstellaires.
+</h3>
+</div>
+{% for nebuleuses in site.nebuleuses %}
+<div class="left space">
+  <a class="link" href="{{chats.url  | relative_url }}">
+
+  <img class="petit" id="box" src="{{chats.image  | relative_url }}">
+  </a>
+  <div class="content">
+
+    <a class="link" href="{{chats.url  | relative_url }}">
+      <button type="button" name="button" class="draw" href="{{chats.url  | relative_url }}">
+        <i>
+          <h2>
+    {{ chatss.title}}
+    </h2>
+    </i>
+    </button>
+    </a>
+  </div>
+</div>
+{% endfor %}
