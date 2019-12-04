@@ -1,0 +1,26 @@
+---
+layout: liste
+---
+<div class="left space block">
+  <h2>animals</h2>
+</div>
+{% for animals in site.animals %}
+<div class="left space">
+  <a class="link" href="{{animals.url  | relative_url }}">
+
+  <img class="petit" id="box" src="{{animals.image  | relative_url }}">
+  </a>
+  <div class="content">
+
+    <a class="link" href="{{animals.url  | relative_url }}">
+      <button type="button" name="button" class="draw" href="{{animals.url  | relative_url }}">
+        <i>
+          <h2>
+    {{ animals.title}}
+    </h2>
+    </i>
+    </button>
+    </a>
+  </div>
+</div>
+{% endfor %}
