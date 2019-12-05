@@ -12,6 +12,8 @@ plugins:
 
 nav-links:
   - name: "chats"
-    link: "/chats"
+    link: "chats.html"
   - name: "animals"
-    link: "/animals"
+    link: "animals.html"
+  - name: "home"
+    link: "index.html"

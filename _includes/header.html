@@ -1,8 +1,14 @@
 <header>
-  <ul>
-  <li><a href="{{ chats.url | relative_url }}"> {{ list.title }}Top 5 des chats les plus influents du web!</a></li>
-  <li><a href="{{ animals.url | relative_url }}"> {{ animals.title }} Top 5 animaux Badass</a></li>
+  <!-- <ul>
+  <li><a href="{{ 'chats.html' | relative_url }}">Top 5 des chats les plus influents du web!</a></li>
+  <li><a href="{{ 'animals.html' | relative_url }}">Top 5 animaux Badass</a></li>
+</ul> -->
+
+<ul>
+{% for link in site.nav-links %}
+  <li>
+    <a href="{{ link.link | relative_url }}">{{ link.name }}</a>
+  </li>
+{% endfor %}
 </ul>
-
-
 </header>
