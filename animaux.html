@@ -1,0 +1,20 @@
+---
+layout: list
+---
+
+<h1>Animaux fascinants</h1>
+
+{% for animaux in site.animaux %}
+
+<a class="link" href="{{animaux.url  | relative_url }}">
+<img src="{{animaux.image  | relative_url }}">
+  </a>
+<div class="content">
+
+  <a class="link" href="{{animaux.url  | relative_url }}">
+    <h3>
+    {{ animaux.title}}
+    </h3>
+    </a>
+</div>
+{% endfor %}
