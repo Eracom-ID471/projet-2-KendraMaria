@@ -1,14 +1,14 @@
 ---
-layout: liste
+layout: list
 ---
-<div class="left space block">
+
   <h2>Chats</h2>
-</div>
+
 {% for chats in site.chats %}
-<div class="left space">
+
   <a class="link" href="{{chats.url  | relative_url }}">
 
-  <img class="petit" id="box" src="{{chats.image  | relative_url }}">
+  <img src="{{chats.image  | relative_url }}">
   </a>
   <div class="content">
 
@@ -21,6 +21,6 @@ layout: liste
     </i>
     </button>
     </a>
-  </div>
+
 </div>
 {% endfor %}

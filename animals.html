@@ -1,14 +1,14 @@
 ---
 layout: liste
 ---
-<div class="left space block">
+
   <h2>animals</h2>
-</div>
+
 {% for animals in site.animals %}
-<div class="left space">
+
   <a class="link" href="{{animals.url  | relative_url }}">
 
-  <img class="petit" id="box" src="{{animals.image  | relative_url }}">
+  <img src="{{animals.image  | relative_url }}">
   </a>
   <div class="content">
 
@@ -21,6 +21,5 @@ layout: liste
     </i>
     </button>
     </a>
-  </div>
 </div>
 {% endfor %}
