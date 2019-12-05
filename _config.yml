@@ -15,5 +15,7 @@ nav-links:
     link: "chats.html"
   - name: "animals"
     link: "animals.html"
+  - name: "fascinant"
+      link: "fascinant.html"
   - name: "home"
     link: "index.html"
