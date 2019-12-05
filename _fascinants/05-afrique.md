@@ -1,18 +1,11 @@
 ---
 layout: post
 ranking: 5
-title: Le moustique
-image: "/assets/img/5E.jpg"
+title: Les géants d'afrique
+image: "/assets/img/E.jpg"
 video:
-short_description: Le moustique, serial killer et adepte du taï-chi
+short_description: L’éléphant, la girafe et le lion
 ---
 
-Ils tuent plus de 800 000 personnes chaque année, envahissent la planète et résistent aux grosses gouttes de pluie en utilisant leur force, tels des maîtres des arts martiaux. Les moustiques referment notre série sur les animaux badass.
-
-Le Temps: Vous considérez-vous comme l’animal le plus dangereux pour l’homme?
-
-Le moustique: Nous sommes badass, et pas qu’un peu: notre famille, qui compte environ 3500 espèces, est responsable de plus de morts que les requins, les lions, les hippopotames, les crocodiles, les serpents. Mes congénères sont les vecteurs du parasite du paludisme et de vers responsables de filarioses, mais aussi des virus de la dengue, du chikungunya, du Zika, de la fièvre jaune, de l’encéphalite japonaise, de la fièvre à virus West Nile.
-
-- Quel est votre bilan en tant que serial killer?
-
-- La dengue est endémique dans plus de 100 pays. En 2015, la région des Amériques a signalé 2,35 millions de cas dont 10 200 cas de dengue sévère qui ont provoqué 1181 décès. Près de la moitié de la population mondiale est exposée au risque de contracter le paludisme de notre fait. Nous assurons la transmission de cette maladie dans 91 pays. Chaque année, environ 500 000 enfants meurent de paludisme. En 2015, les conflits humains ont provoqué la mort d’environ 580 000 personnes alors que nous, moustiques, en avons tué 834 000 par l’intermédiaire des maladies que nous transmettons. Les requins n’avaient tué que 6 hommes, les serpents 60 000, les crocodiles 1000. Nous sommes aussi coriaces, comme l’ont montré en avril dernier des chercheurs britanniques de l’Ecole de médecine tropicale de Liverpool.
+Plus précisément, l’éléphant, la girafe et le lion. Vous pensez peut-être qu’ils ne sont pas si impressionnants que ça, on en voit tout le temps à la télé et vous les avez sûrement déjà souvent vu dans les zoos. Mais nous pouvons vous garantir, peu importe combien vous avez vu, les voir en liberté dans leur habitat naturel est sans comparaison. C’est tout simplement une expérience exceptionnelle, même mieux que ça en comptant avec le magnifique paysage africain qui va avec. L’éléphant est un géant de d’environ 5 tonnes à l’âge adulte, avec ses formes arrondies et une délicatesse surprenante. La girafe est aussi un géant par sa hauteur de 6 mètres, avec une belle peau à motifs son air sympathique et son incroyable vitesse au sprint. Et le lion, le roi des animaux est le deuxième plus grand chat du monde (après le tigre), la crinière d’or du mâle le rend vraiment majestueux, mais il est beaucoup plus paresseux qu’on pourrait le penser, il passe la plupart du temps à se reposer ou à dormir, laissant le travail de la chasse aux lionnes, le mal lui assure la démarcation du territoire.
+Les pays africains où vous pouvez voir ces géants: En Namibie, au Botswana, au Zimbabwe, en Tanzanie et au Kenya.
