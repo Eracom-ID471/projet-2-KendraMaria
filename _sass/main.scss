@@ -1,8 +1,23 @@
 
 body {
-  background: Lavender;
-  color: MidnightBlue;
-  font-family: 'Rokkitt', serif;;
+  background: #f9f7f2;
+  color: #13120d;
+  font-family: 'Rokkitt', serif;
+}
+h3{
+  color:#4e4935;
+  text-align: right;
+  margin-right: 25rem;
+  margin-bottom: 5rem;
+}
+
+h3:hover{
+  color:white;
+}
+
+h1{
+  color:#4e4935;
+  margin-bottom: 5rem;
 }
 
 a:active{
@@ -17,6 +32,13 @@ a:active{
   height: auto;
   max-width: 400px;
   width: 100%;
+}
+
+.animals-image{
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+  align-items: center;
 }
 
 ul {
@@ -34,8 +56,8 @@ img:hover{
 }
 
 header{
-  background-color: snow;
-  color: MidnightBlue;
+  background-color:#f3f0e6;
+  color: #4e4935;
   height: 100px;
   text-align: center;
   padding-top: 5px;
@@ -43,8 +65,8 @@ header{
 }
 
 footer{
-  background-color: MediumSlateBlue;
-  color: white;
+  background-color: #ede9da;
+  color: black;
   height: 40px;
   text-align: center;
   padding-top: 1px;
@@ -55,16 +77,18 @@ footer{
   text-align: center;
 }
 
+.content2{
+  margin-left: 15rem;
+}
+
   img{
 background-color: #cccccc;
 zoom:1;
-box-shadow: 5px 2px 15px 5px #191970;
+box-shadow: 5px 2px 15px 5px #4e4935;
 }
 
 @media only screen{#selecteur{filter: none;}} /*Ie9+*/
 
-.animal{
-  color: black;
-  background-color: beige;
-  text-align:center;
+.text{
+  width:50rem;
 }

@@ -2,23 +2,20 @@
 layout: list
 ---
 
-  <h2>Chats</h2>
+  <h1>Chats</h1>
 
 {% for chats in site.chats %}
 
   <a class="link" href="{{chats.url  | relative_url }}">
-
-  <img src="{{chats.image  | relative_url }}">
+<img src="{{chats.image  | relative_url }}">
   </a>
   <div class="content">
 
     <a class="link" href="{{chats.url  | relative_url }}">
       <a href="{{chats.url  | relative_url }}">
-        <i>
-          <h2>
+          <h3>
     {{ chats.title}}
-    </h2>
-    </i>
+    </h3>
     </a>
     </a>
 

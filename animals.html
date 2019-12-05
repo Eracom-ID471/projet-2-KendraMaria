@@ -2,26 +2,19 @@
 layout: list
 ---
 
-<div class="animal">
-  <h2>animals</h2>
+<h1>animals</h1>
 
 {% for animals in site.animals %}
 
-  <a class="link" href="{{animals.url  | relative_url }}">
-
-  <img src="{{animals.image  | relative_url }}">
+<a class="link" href="{{animals.url  | relative_url }}">
+<img src="{{animals.image  | relative_url }}">
   </a>
-  <div class="content">
+<div class="content">
 
-    <a class="link" href="{{animals.url  | relative_url }}">
-      <a href="{{animals.url  | relative_url }}">
-        <i>
-          <h2>
+  <a class="link" href="{{animals.url  | relative_url }}">
+    <h3>
     {{ animals.title}}
-    </h2>
-    </i>
+    </h3>
     </a>
-    </a>
-</div>
 </div>
 {% endfor %}

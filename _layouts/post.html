@@ -2,15 +2,18 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 {% include head.html %}
 {% include header.html %}
+
 <body>
 
-  <div class="space left foot">
-  <h5>{{ page.short_description}}</h5>
-  <img class="petit" src="{{ page.image | relative_url }}">
-  <h2><i>{{ page.title }}</i></h2>
-  <div class="content">{{ content}}</div>
-  </div>
-  {% include footer.html %}
+  <div class="content2">
+    <h5>{{ page.short_description}}</h5>
+
+      <img src="{{ page.image | relative_url }}">
+
+      <h2>{{ page.title }}</h2>
+      <div class="text">{{ content}}</div>
+    </div>
+    {% include footer.html %}
 
 </body>
 
